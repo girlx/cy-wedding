@@ -1,2 +1,2 @@
-# choua-and-yong
+# Choua & Yong Wedding
 wedding profile
