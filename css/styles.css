@@ -16,7 +16,7 @@ h1 {
     font-family: 'Fleur De Leah', cursive;
     color: #5D4030;
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -89,7 +89,7 @@ li {
 nav {
   background-color: #FF914D;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Bodoni Moda', serif;
   position: fixed;
   top: 0px;
