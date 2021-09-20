@@ -8,7 +8,7 @@ body {
     background-color: #F8EFEF;
     font-family: 'Bodoni Moda', serif;
     font-size: 1.3em;
-    color: #ffffff;
+    color: #000000;
 }
 
 h1 {
@@ -22,13 +22,13 @@ h1 {
 h2 {
     font-size: 2em;
     font-family: 'Lato', sans-serif;
-    color: #ffffff;
+    color: #5D4030;
 }
 
 h3 {
     font-size: 5em;
     font-family: 'Fleur De Leah', cursive;
-    color: #ffffff;
+    color: #5D4030;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -52,7 +52,7 @@ h3 {
 }
 
 .jumbotron-2 {
-    background-color: #FF914D;
+    background-color: #FEB476;
 }
 
 /* Screen size responsiveness */
@@ -102,8 +102,8 @@ li {
 }
 
 nav {
-  background-color: #FF914D;
-  color: #ffffff;
+  background-color: #FEB476;
+  color: #5D4030;
   font-size: 1.5em;
   font-family: 'Bodoni Moda', serif;
   position: fixed;
@@ -113,22 +113,22 @@ nav {
   
 /* unvisited link */
 a:link {
-  color:white;
+  color:#5D4030;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: #5D4030;
 }
 
 /* mouse over link */
 a:hover {
-  color: #FF914D;
+  color: #FEB476;
 }
   
 /* selected link*/
 a:active {
-  color: #ffffff;
+  color: #5D4030;
 }
 
 
