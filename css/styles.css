@@ -1,7 +1,9 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
+/* Style body and fonts */
 body {
     background-color: #F8EFEF;
     font-family: 'Bodoni Moda', serif;
@@ -10,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 5em;
     font-family: 'Fleur De Leah', cursive;
     color: #5D4030;
     margin-top: 100px;
@@ -24,7 +26,7 @@ h2 {
 }
 
 h3 {
-    font-size: 7em;
+    font-size: 5em;
     font-family: 'Fleur De Leah', cursive;
     color: #ffffff;
     margin-top: 30px;
@@ -53,6 +55,7 @@ h3 {
     background-color: #FF914D;
 }
 
+/* Screen size responsiveness */
 @media only screen and (max-width: 400px) {
     h1 {
         font-size: 2em;
@@ -71,42 +74,46 @@ h3 {
     }
 }
 
+/* Navigation Bar */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  li {
-    display: inline;
-    padding: 20px;
-  }
+li {
+  display: inline;
+  padding: 20px;
+}
+
+nav {
+  background-color: #FF914D;
+  color: #ffffff;
+  font-size: 2em;
+  font-family: 'Bodoni Moda', serif;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
   
-  nav {
-    background-color: #FF914D;
-    color: #ffffff;
-    font-size: 2em;
-    font-family: 'Bodoni Moda', serif;
-  }
+/* unvisited link */
+a:link {
+  color:white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF914D;
+}
   
-  /* unvisited link */
-  a:link {
-    color:white;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: white;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #Ffffff;
-  }
-  
-  /* selected link*/
-  a:active {
-    color: black;
-  }
-  
+/* selected link*/
+a:active {
+  color: #ffffff;
+}
+
 
