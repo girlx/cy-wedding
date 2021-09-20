@@ -58,19 +58,25 @@ h3 {
 /* Screen size responsiveness */
 @media only screen and (max-width: 400px) {
     h1 {
-        font-size: 2em;
+        font-size: 1em;
+    }
+    nav {
+      font-size: 0.5em;
     }
   }
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 3em;
+        font-size: 2em;
+    }
+    nav {
+      font-size: 0.8em;
     }
 }
 
 @media only screen and (max-width: 800px) {
     h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 }
 
